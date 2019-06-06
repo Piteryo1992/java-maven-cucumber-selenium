@@ -17,8 +17,7 @@ public class Hook extends BaseUtil {
     @Before
     public void initializeTest() {
         System.out.println("Opening browser: GoogleChrome");
-        System.setProperty("webdriver.chrome.driver",
-                "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");
         base.Driver = new ChromeDriver();
     }
 

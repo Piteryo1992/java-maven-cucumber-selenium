@@ -1,4 +1,4 @@
-Feature: Strona internetowa umożliwiająca użytkownikom wystawianie swoich ofert, przedmiotów, usług oraz ich wyszukiwanie.
+Feature: Website allows unregistered users to add new offers and to browse existing offers
 
   Scenario Outline: Add offer to the website and check if the offer exists and can be found
     When I am on the website
